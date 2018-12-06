@@ -15,7 +15,6 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
         moveElement.frame = CGRect(x: 100, y: 100, width: 5, height: 5)
         moveElement.backgroundColor = .red
         pit.frame = CGRect(x: 100, y: 50, width: 50, height: 50)
@@ -49,3 +48,4 @@ class ViewController: UIViewController {
     
 }
 
+//1 commit

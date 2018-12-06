@@ -14,6 +14,7 @@
 		ACC4DF8321B82DAF002C4A85 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACC4DF8121B82DAF002C4A85 /* LaunchScreen.storyboard */; };
 		ACC4DF8E21B82DAF002C4A85 /* KubikiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC4DF8D21B82DAF002C4A85 /* KubikiTests.swift */; };
 		ACC4DF9921B82DAF002C4A85 /* KubikiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC4DF9821B82DAF002C4A85 /* KubikiUITests.swift */; };
+		ACF6BA3221B97CB500AC414C /* moveButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF6BA3121B97CB500AC414C /* moveButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		ACC4DF9421B82DAF002C4A85 /* KubikiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KubikiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACC4DF9821B82DAF002C4A85 /* KubikiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KubikiUITests.swift; sourceTree = "<group>"; };
 		ACC4DF9A21B82DAF002C4A85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACF6BA3121B97CB500AC414C /* moveButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = moveButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 		ACC4DF7721B82DAB002C4A85 /* Kubiki */ = {
 			isa = PBXGroup;
 			children = (
+				ACF6BA3121B97CB500AC414C /* moveButton.swift */,
 				ACC4DF7821B82DAB002C4A85 /* AppDelegate.swift */,
 				ACC4DF7A21B82DAB002C4A85 /* ViewController.swift */,
 				ACC4DF7C21B82DAB002C4A85 /* Main.storyboard */,
@@ -257,6 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				ACC4DF7B21B82DAB002C4A85 /* ViewController.swift in Sources */,
+				ACF6BA3221B97CB500AC414C /* moveButton.swift in Sources */,
 				ACC4DF7921B82DAB002C4A85 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
