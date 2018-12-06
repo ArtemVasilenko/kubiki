@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ACC4DF7921B82DAB002C4A85 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC4DF7821B82DAB002C4A85 /* AppDelegate.swift */; };
+		ACC4DF7B21B82DAB002C4A85 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC4DF7A21B82DAB002C4A85 /* ViewController.swift */; };
+		ACC4DF7E21B82DAB002C4A85 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACC4DF7C21B82DAB002C4A85 /* Main.storyboard */; };
+		ACC4DF8021B82DAF002C4A85 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACC4DF7F21B82DAF002C4A85 /* Assets.xcassets */; };
+		ACC4DF8321B82DAF002C4A85 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACC4DF8121B82DAF002C4A85 /* LaunchScreen.storyboard */; };
+		ACC4DF8E21B82DAF002C4A85 /* KubikiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC4DF8D21B82DAF002C4A85 /* KubikiTests.swift */; };
+		ACC4DF9921B82DAF002C4A85 /* KubikiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC4DF9821B82DAF002C4A85 /* KubikiUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ACC4DF8A21B82DAF002C4A85 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ACC4DF6D21B82DAB002C4A85 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ACC4DF7421B82DAB002C4A85;
+			remoteInfo = Kubiki;
+		};
+		ACC4DF9521B82DAF002C4A85 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ACC4DF6D21B82DAB002C4A85 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ACC4DF7421B82DAB002C4A85;
+			remoteInfo = Kubiki;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ACC4DF7521B82DAB002C4A85 /* Kubiki.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kubiki.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACC4DF7821B82DAB002C4A85 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ACC4DF7A21B82DAB002C4A85 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ACC4DF7D21B82DAB002C4A85 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ACC4DF7F21B82DAF002C4A85 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ACC4DF8221B82DAF002C4A85 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ACC4DF8421B82DAF002C4A85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACC4DF8921B82DAF002C4A85 /* KubikiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KubikiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACC4DF8D21B82DAF002C4A85 /* KubikiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KubikiTests.swift; sourceTree = "<group>"; };
+		ACC4DF8F21B82DAF002C4A85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACC4DF9421B82DAF002C4A85 /* KubikiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KubikiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACC4DF9821B82DAF002C4A85 /* KubikiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KubikiUITests.swift; sourceTree = "<group>"; };
+		ACC4DF9A21B82DAF002C4A85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ACC4DF7221B82DAB002C4A85 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACC4DF8621B82DAF002C4A85 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACC4DF9121B82DAF002C4A85 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ACC4DF6C21B82DAB002C4A85 = {
+			isa = PBXGroup;
+			children = (
+				ACC4DF7721B82DAB002C4A85 /* Kubiki */,
+				ACC4DF8C21B82DAF002C4A85 /* KubikiTests */,
+				ACC4DF9721B82DAF002C4A85 /* KubikiUITests */,
+				ACC4DF7621B82DAB002C4A85 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ACC4DF7621B82DAB002C4A85 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ACC4DF7521B82DAB002C4A85 /* Kubiki.app */,
+				ACC4DF8921B82DAF002C4A85 /* KubikiTests.xctest */,
+				ACC4DF9421B82DAF002C4A85 /* KubikiUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ACC4DF7721B82DAB002C4A85 /* Kubiki */ = {
+			isa = PBXGroup;
+			children = (
+				ACC4DF7821B82DAB002C4A85 /* AppDelegate.swift */,
+				ACC4DF7A21B82DAB002C4A85 /* ViewController.swift */,
+				ACC4DF7C21B82DAB002C4A85 /* Main.storyboard */,
+				ACC4DF7F21B82DAF002C4A85 /* Assets.xcassets */,
+				ACC4DF8121B82DAF002C4A85 /* LaunchScreen.storyboard */,
+				ACC4DF8421B82DAF002C4A85 /* Info.plist */,
+			);
+			path = Kubiki;
+			sourceTree = "<group>";
+		};
+		ACC4DF8C21B82DAF002C4A85 /* KubikiTests */ = {
+			isa = PBXGroup;
+			children = (
+				ACC4DF8D21B82DAF002C4A85 /* KubikiTests.swift */,
+				ACC4DF8F21B82DAF002C4A85 /* Info.plist */,
+			);
+			path = KubikiTests;
+			sourceTree = "<group>";
+		};
+		ACC4DF9721B82DAF002C4A85 /* KubikiUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ACC4DF9821B82DAF002C4A85 /* KubikiUITests.swift */,
+				ACC4DF9A21B82DAF002C4A85 /* Info.plist */,
+			);
+			path = KubikiUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ACC4DF7421B82DAB002C4A85 /* Kubiki */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACC4DF9D21B82DAF002C4A85 /* Build configuration list for PBXNativeTarget "Kubiki" */;
+			buildPhases = (
+				ACC4DF7121B82DAB002C4A85 /* Sources */,
+				ACC4DF7221B82DAB002C4A85 /* Frameworks */,
+				ACC4DF7321B82DAB002C4A85 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Kubiki;
+			productName = Kubiki;
+			productReference = ACC4DF7521B82DAB002C4A85 /* Kubiki.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ACC4DF8821B82DAF002C4A85 /* KubikiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACC4DFA021B82DAF002C4A85 /* Build configuration list for PBXNativeTarget "KubikiTests" */;
+			buildPhases = (
+				ACC4DF8521B82DAF002C4A85 /* Sources */,
+				ACC4DF8621B82DAF002C4A85 /* Frameworks */,
+				ACC4DF8721B82DAF002C4A85 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ACC4DF8B21B82DAF002C4A85 /* PBXTargetDependency */,
+			);
+			name = KubikiTests;
+			productName = KubikiTests;
+			productReference = ACC4DF8921B82DAF002C4A85 /* KubikiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ACC4DF9321B82DAF002C4A85 /* KubikiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACC4DFA321B82DAF002C4A85 /* Build configuration list for PBXNativeTarget "KubikiUITests" */;
+			buildPhases = (
+				ACC4DF9021B82DAF002C4A85 /* Sources */,
+				ACC4DF9121B82DAF002C4A85 /* Frameworks */,
+				ACC4DF9221B82DAF002C4A85 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ACC4DF9621B82DAF002C4A85 /* PBXTargetDependency */,
+			);
+			name = KubikiUITests;
+			productName = KubikiUITests;
+			productReference = ACC4DF9421B82DAF002C4A85 /* KubikiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ACC4DF6D21B82DAB002C4A85 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Артем";
+				TargetAttributes = {
+					ACC4DF7421B82DAB002C4A85 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					ACC4DF8821B82DAF002C4A85 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = ACC4DF7421B82DAB002C4A85;
+					};
+					ACC4DF9321B82DAF002C4A85 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = ACC4DF7421B82DAB002C4A85;
+					};
+				};
+			};
+			buildConfigurationList = ACC4DF7021B82DAB002C4A85 /* Build configuration list for PBXProject "Kubiki" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ACC4DF6C21B82DAB002C4A85;
+			productRefGroup = ACC4DF7621B82DAB002C4A85 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ACC4DF7421B82DAB002C4A85 /* Kubiki */,
+				ACC4DF8821B82DAF002C4A85 /* KubikiTests */,
+				ACC4DF9321B82DAF002C4A85 /* KubikiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ACC4DF7321B82DAB002C4A85 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACC4DF8321B82DAF002C4A85 /* LaunchScreen.storyboard in Resources */,
+				ACC4DF8021B82DAF002C4A85 /* Assets.xcassets in Resources */,
+				ACC4DF7E21B82DAB002C4A85 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACC4DF8721B82DAF002C4A85 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACC4DF9221B82DAF002C4A85 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ACC4DF7121B82DAB002C4A85 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACC4DF7B21B82DAB002C4A85 /* ViewController.swift in Sources */,
+				ACC4DF7921B82DAB002C4A85 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACC4DF8521B82DAF002C4A85 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACC4DF8E21B82DAF002C4A85 /* KubikiTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACC4DF9021B82DAF002C4A85 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACC4DF9921B82DAF002C4A85 /* KubikiUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ACC4DF8B21B82DAF002C4A85 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ACC4DF7421B82DAB002C4A85 /* Kubiki */;
+			targetProxy = ACC4DF8A21B82DAF002C4A85 /* PBXContainerItemProxy */;
+		};
+		ACC4DF9621B82DAF002C4A85 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ACC4DF7421B82DAB002C4A85 /* Kubiki */;
+			targetProxy = ACC4DF9521B82DAF002C4A85 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ACC4DF7C21B82DAB002C4A85 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ACC4DF7D21B82DAB002C4A85 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ACC4DF8121B82DAF002C4A85 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ACC4DF8221B82DAF002C4A85 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ACC4DF9B21B82DAF002C4A85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ACC4DF9C21B82DAF002C4A85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ACC4DF9E21B82DAF002C4A85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Kubiki/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Art.Kubiki;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ACC4DF9F21B82DAF002C4A85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Kubiki/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Art.Kubiki;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		ACC4DFA121B82DAF002C4A85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KubikiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Art.KubikiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kubiki.app/Kubiki";
+			};
+			name = Debug;
+		};
+		ACC4DFA221B82DAF002C4A85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KubikiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Art.KubikiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kubiki.app/Kubiki";
+			};
+			name = Release;
+		};
+		ACC4DFA421B82DAF002C4A85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KubikiUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Art.KubikiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Kubiki;
+			};
+			name = Debug;
+		};
+		ACC4DFA521B82DAF002C4A85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KubikiUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Art.KubikiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Kubiki;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ACC4DF7021B82DAB002C4A85 /* Build configuration list for PBXProject "Kubiki" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACC4DF9B21B82DAF002C4A85 /* Debug */,
+				ACC4DF9C21B82DAF002C4A85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACC4DF9D21B82DAF002C4A85 /* Build configuration list for PBXNativeTarget "Kubiki" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACC4DF9E21B82DAF002C4A85 /* Debug */,
+				ACC4DF9F21B82DAF002C4A85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACC4DFA021B82DAF002C4A85 /* Build configuration list for PBXNativeTarget "KubikiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACC4DFA121B82DAF002C4A85 /* Debug */,
+				ACC4DFA221B82DAF002C4A85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACC4DFA321B82DAF002C4A85 /* Build configuration list for PBXNativeTarget "KubikiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACC4DFA421B82DAF002C4A85 /* Debug */,
+				ACC4DFA521B82DAF002C4A85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ACC4DF6D21B82DAB002C4A85 /* Project object */;
+}
